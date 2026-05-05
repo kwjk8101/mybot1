@@ -30,7 +30,7 @@ def authenticate():
         st.markdown("<h1 style='text-align: center;'>🤍</h1>", unsafe_allow_html=True)
         pwd = st.text_input("passcode:", type="password", placeholder="enter our date...")
         
-        if pwd == "your_passcode":  # Replace with actual passcode
+        if pwd == "100823":  # Replace with actual passcode
             st.session_state.authenticated = True
             st.rerun()
         elif pwd:
