@@ -269,15 +269,15 @@ st.markdown("""
 # ─────────────────────────────────────────
 try:
     GEMINI_KEY  = st.secrets["GEMINI_KEY"]
-    PASSCODE    = st.secrets["PASSCODE"]
-    YOUR_NAME   = st.secrets.get("YOUR_NAME", "babe")
-    ANNIV_DATE  = st.secrets.get("ANNIV_DATE", "2024-01-01")  # YYYY-MM-DD
+    PASSCODE    = st.secrets["100823"]
+    YOUR_NAME   = st.secrets.get("YOUR_NAME", "my love")
+   
 except Exception:
     # fallback for local dev — replace with real values
     GEMINI_KEY  = "YOUR_GEMINI_API_KEY"
     PASSCODE    = "our_special_date"
     YOUR_NAME   = "your name"
-    ANNIV_DATE  = "2024-01-01"
+
 
 # ─────────────────────────────────────────
 #  AUTH GATE
