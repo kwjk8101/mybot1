@@ -274,9 +274,9 @@ try:
    
 except Exception:
     # fallback for local dev — replace with real values
-    GEMINI_KEY  = "YOUR_GEMINI_API_KEY"
+    GEMINI_KEY  = "AIzaSyDyBuPQttLipFiRPKpZcn38rfFWYi6mc60"
     PASSCODE    = "100823"
-    YOUR_NAME   = "your name"
+    YOUR_NAME   = "kayden"
 
 
 # ─────────────────────────────────────────
